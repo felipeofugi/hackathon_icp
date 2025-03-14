@@ -38,6 +38,7 @@ const assetManager = new AssetManager({ canisterId, agent });
 function t1pageconfig() {
   const { nome } = useParams();
   const [pagesSections, setPagesSections] = useState(new Map());
+  const [pagesSectionsEdit, setPagesSectionsEdit] = useState(new Map());
   const [pagesProps, setPagesProps] = useState(new Map());
   const [pagesImg, setPagesImg] = useState(new Map());
   const [loading, setLoading] = useState(false);
@@ -344,6 +345,18 @@ function t1pageconfig() {
     }
   }
 
+  function alterarPageSectionEdit(chave, valor) {
+    setPagesSectionsEdit((prev) => {
+      const newMap = new Map(prev); // Criando um novo Map baseado no anterior
+      newMap.set(chave, valor); // Atualizando a chave com o novo valor
+      return newMap; // Retornando um novo objeto para que o React re-renderize
+    });
+  }
+
+  function showPageSectionEdit() {
+    alterarPageSectionEdit("secao1edit", true);
+  }
+
   return (
     <>
       <Helmet>
@@ -389,6 +402,9 @@ function t1pageconfig() {
 
         <div class="flex items-start ml-6">
           <div class="w-[100px]">
+            <button type="button" onClick={showPageSectionEdit}>
+              Seção 1
+            </button>
             <div class="flex items-center mb-6">
               <label
                 for="remember"
@@ -629,6 +645,13 @@ function t1pageconfig() {
                 Seção 10
               </label>
             </div>
+          </div>
+
+          <div class="w-px h-[500px] bg-gray-200 dark:bg-gray-700"></div>
+
+          <div class="w-[300px]">
+            <p>oioioi</p>
+            {pagesSectionsEdit.get("secao1edit") == true && <p>batata</p>}
           </div>
 
           <div class="w-px h-[500px] bg-gray-200 dark:bg-gray-700"></div>
