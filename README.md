@@ -1,31 +1,13 @@
-# Gerador de Landing Pages On-Chain - `geradorlp`
+# Melhoria de Design da página de edição do Gerador de Landing Pages On-Chain
 
-Bem-vindo ao projeto `geradorlp`, um DApp desenvolvido na **blockchain ICP** utilizando a linguagem **Motoko**. O principal objetivo deste projeto é permitir a criação de **Landing Pages 100% on-chain**, garantindo segurança, transparência e descentralização no armazenamento e publicação de páginas.
-
-As landing pages são amplamente utilizadas em estratégias de marketing e possuem diversas finalidades, como:
-
-- 🌆 **Divulgação de promoções de produtos** (especialmente no e-commerce);
-- 💼 **Apresentação de serviços** e portfólios;
-- 🗕 **Promoção e inscrição em eventos, webinars e workshops**;
-- 🎓 **Divulgação e inscrição em cursos online**;
-- ⚡ **Outras campanhas e estratégias digitais**.
-
----
-
-## 🚀 **Como o DApp Funciona**
-
-O `geradorlp` foi projetado para ser intuitivo e eficiente, permitindo que qualquer usuário crie, edite e publique suas próprias landing pages com facilidade.
-
-- ✅ **Criação Simples**: Escolha entre templates pré-definidos, adicione seus textos e imagens, e personalize sua página conforme a necessidade.
-- ✅ **Publicação On-Chain**: Após a criação, a landing page poderá ser publicada, tornando-se acessível para qualquer pessoa via blockchain ICP.
-- ✅ **Gerenciamento de Múltiplas Páginas**: Cada usuário pode criar e gerenciar uma ou várias landing pages de forma independente.
+Este projeto foi submetido ao Hackathon-3 da ICP-Brasil. Neste projeto objetiva-se melhorar a experiência de usuário na página de edição da Landing Page, do projeto existente "Gerador de Landing Pages On-Chain", que pode ser encontrado em: https://github.com/diogodcmdcm/geradorlp
 
 ---
 
 ## 🔐 **Funcionalidades Desenvolvidas**
 
-- **Conexão Segura com Internet Identity**: Os usuários podem se conectar de forma segura utilizando o sistema de identidade descentralizado da ICP.
-- **Criação e Edição Dinâmica**: É possível criar e personalizar landing pages com base em templates pré-definidos, ajustando textos e imagens conforme necessário.
+- **Criação de três colunas na tela de edição da Landing Pega**: Na primeira coluna encontram-se as seções disponíveis, na segunda coluna encontram-se os botões de edição e na terceira é exibida uma prévia do site.
+- **Criação e Edição Dinâmica**: É possível criar e personalizar landing pages com base em templates pré-definidos, com uma visualização da prévia do site no momento em que as edições estão sendo feitas, permitindo o ajuste de textos e imagens conforme necessário.
 - **Publicação Imediata**: Com apenas alguns cliques, a página é publicada e disponibilizada na blockchain, garantindo acessibilidade global.
 - **Gerenciamento Simples**: Usuários têm liberdade para criar, editar ou excluir suas páginas, conforme suas estratégias de marketing evoluem.
 
