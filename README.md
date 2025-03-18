@@ -4,6 +4,12 @@ Este projeto foi submetido ao Hackathon-3 da ICP-Brasil. Neste projeto objetiva-
 
 ---
 
+## 🔐 **Observação sobre branches**
+
+A branch `alteracoes_apos_o_prazo` contém a versão mais recente do código, mas contém commits realizados após o dia 17/03 (referentes as seções 5 a 10).
+
+---
+
 ## 🔐 **Funcionalidades Desenvolvidas**
 
 - **Criação de três colunas na tela de edição da Landing Pega**: Na primeira coluna encontram-se as seções disponíveis, na segunda coluna encontram-se os botões de edição e na terceira é exibida uma prévia do site.
