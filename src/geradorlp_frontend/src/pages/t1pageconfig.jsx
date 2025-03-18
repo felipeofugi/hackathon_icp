@@ -8,6 +8,7 @@ import { AssetManager } from "@dfinity/assets";
 import Spinner from "../components/spinner";
 import { Actor } from "@dfinity/agent";
 import { AuthClient } from "@dfinity/auth-client";
+import "./style.css";
 
 //identidade utilizada para enviar os Assets para o Canister de frontend.
 const identity = Ed25519KeyIdentity.generate(
@@ -388,8 +389,8 @@ function t1pageconfig() {
         <link href="./output.css" rel="stylesheet" />
       </Helmet>
 
-      <nav class="bg-white border-gray-200 dark:bg-gray-900">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <nav class="fixed top-0 bg-gray-100 border-gray-200 dark:bg-gray-900">
+        <div class="w-screen max-w-screen-full flex flex-wrap items-center justify-between p-4">
           <a class="flex items-center space-x-3 rtl:space-x-reverse">
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               {nome}
@@ -414,82 +415,88 @@ function t1pageconfig() {
         </div>
       </nav>
 
-      <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-
-      <body>
+      <body class="mt-[9.3vh]">
         <div>{loading && <Spinner />}</div>
 
-        <div class="flex items-start ml-6">
-          <div class="w-[100px]">
+        <div class="flex items-start">
+          <div class="max-h-[90.7vh] overflow-y-auto w-[76px]">
             <button
               type="button"
               onClick={() => showPageSectionEdit("secao1edit")}
+              class="secoes"
             >
               Seção 1
             </button>
             <button
               type="button"
               onClick={() => showPageSectionEdit("secao2edit")}
+              class="secoes"
             >
               Seção 2
             </button>
             <button
               type="button"
               onClick={() => showPageSectionEdit("secao3edit")}
+              class="secoes"
             >
               Seção 3
             </button>
             <button
               type="button"
               onClick={() => showPageSectionEdit("secao4edit")}
+              class="secoes"
             >
               Seção 4
             </button>
             <button
               type="button"
               onClick={() => showPageSectionEdit("secao5edit")}
+              class="secoes"
             >
               Seção 5
             </button>
             <button
               type="button"
               onClick={() => showPageSectionEdit("secao6edit")}
+              class="secoes"
             >
               Seção 6
             </button>
             <button
               type="button"
               onClick={() => showPageSectionEdit("secao7edit")}
+              class="secoes"
             >
               Seção 7
             </button>
             <button
               type="button"
               onClick={() => showPageSectionEdit("secao8edit")}
+              class="secoes"
             >
               Seção 8
             </button>
             <button
               type="button"
               onClick={() => showPageSectionEdit("secao9edit")}
+              class="secoes"
             >
               Seção 9
             </button>
             <button
               type="button"
               onClick={() => showPageSectionEdit("secao10edit")}
+              class="secoes"
             >
               Seção 10
             </button>
           </div>
 
-          <div class="w-px h-[500px] bg-gray-200 dark:bg-gray-700"></div>
-
-          <div class="w-[300px]">
+          <div class="h-[90.7vh] max-h-[90.7vh] overflow-y-auto w-[316px]">
             {pagesSectionsEdit.get("secao1edit") == true && (
               <header>
-                <nav>
-                  <div class="flex h-[20px] items-start">
+                <nav class="pt-[20px]">
+                  <div class="flex h-full items-center">
                     <div class="flex-1">
                       <p>Seção 1</p>
                     </div>
@@ -525,13 +532,290 @@ function t1pageconfig() {
                       ></label>
                     </div>
                   </div>
+                  <div class="flex h-[20px] items-start">
+                    {(!pagesImg.has("secao1_prop0") ||
+                      pagesImg.get("secao1_prop0")?.url === "" ||
+                      pagesImg.get("secao1_prop0")?.url === null) && (
+                      <div class="w-[30px] h-[33px] mr-3 sm:h-9">
+                        <label
+                          for="dropzone-file11"
+                          class="flex flex-col items-center justify-center w-full h-full border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 "
+                        >
+                          <div class="flex flex-col items-center justify-center pt-1 pb-1">
+                            <svg
+                              class="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 20 16"
+                            >
+                              <path
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
+                              />
+                            </svg>
+                            <p class="mb-1 text-[8px] text-gray-500 dark:text-gray-400">
+                              <span class="font-semibold">Upload</span>
+                            </p>
+                          </div>
+                          <input
+                            id="dropzone-file11"
+                            type="file"
+                            class="hidden"
+                            onChange={(e) => {
+                              selectImg(e, "secao1_prop0");
+                            }}
+                          />
+                        </label>
+                      </div>
+                    )}
+                  </div>
                 </nav>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Logo do site:</div>
+
+                {pagesImg.get("secao1_prop0")?.url != "" &&
+                  pagesImg.get("secao1_prop0")?.url != null && (
+                    <img
+                      src={pagesImg.get("secao1_prop0")?.url}
+                      className="h-6 mr-3 sm:h-9"
+                    />
+                  )}
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto para Nome do Site:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao1_prop1");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Menu 1</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao1_prop3");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Menu 2</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao1_prop4");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Menu 3</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao1_prop5");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Menu 4</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao1_prop6");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Menu 5</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao1_prop7");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Menu 6</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao1_prop8");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto do Botão:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao1_prop2");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
               </header>
             )}
             {pagesSectionsEdit.get("secao2edit") == true && (
               <header>
-                <nav>
-                  <div class="flex h-[20px] items-start">
+                <nav class="pt-[20px]">
+                  <div class="flex h-full items-center">
                     <div class="flex-1">
                       <p>Seção 2</p>
                     </div>
@@ -572,8 +856,8 @@ function t1pageconfig() {
             )}
             {pagesSectionsEdit.get("secao3edit") == true && (
               <header>
-                <nav>
-                  <div class="flex h-[20px] items-start">
+                <nav class="pt-[20px]">
+                  <div class="flex h-full items-center">
                     <div class="flex-1">
                       <p>Seção 3</p>
                     </div>
@@ -614,8 +898,8 @@ function t1pageconfig() {
             )}
             {pagesSectionsEdit.get("secao4edit") == true && (
               <header>
-                <nav>
-                  <div class="flex h-[20px] items-start">
+                <nav class="pt-[20px]">
+                  <div class="flex h-full items-center">
                     <div class="flex-1">
                       <p>Seção 4</p>
                     </div>
@@ -656,8 +940,8 @@ function t1pageconfig() {
             )}
             {pagesSectionsEdit.get("secao5edit") == true && (
               <header>
-                <nav>
-                  <div class="flex h-[20px] items-start">
+                <nav class="pt-[20px]">
+                  <div class="flex h-full items-center">
                     <div class="flex-1">
                       <p>Seção 5</p>
                     </div>
@@ -698,8 +982,8 @@ function t1pageconfig() {
             )}
             {pagesSectionsEdit.get("secao6edit") == true && (
               <header>
-                <nav>
-                  <div class="flex h-[20px] items-start">
+                <nav class="pt-[20px]">
+                  <div class="flex h-full items-center">
                     <div class="flex-1">
                       <p>Seção 6</p>
                     </div>
@@ -740,8 +1024,8 @@ function t1pageconfig() {
             )}
             {pagesSectionsEdit.get("secao7edit") == true && (
               <header>
-                <nav>
-                  <div class="flex h-[20px] items-start">
+                <nav class="pt-[20px]">
+                  <div class="flex h-full items-center">
                     <div class="flex-1">
                       <p>Seção 7</p>
                     </div>
@@ -782,8 +1066,8 @@ function t1pageconfig() {
             )}
             {pagesSectionsEdit.get("secao8edit") == true && (
               <header>
-                <nav>
-                  <div class="flex h-[20px] items-start">
+                <nav class="pt-[20px]">
+                  <div class="flex h-full items-center">
                     <div class="flex-1">
                       <p>Seção 8</p>
                     </div>
@@ -824,8 +1108,8 @@ function t1pageconfig() {
             )}
             {pagesSectionsEdit.get("secao9edit") == true && (
               <header>
-                <nav>
-                  <div class="flex h-[20px] items-start">
+                <nav class="pt-[20px]">
+                  <div class="flex h-full items-center">
                     <div class="flex-1">
                       <p>Seção 9</p>
                     </div>
@@ -866,8 +1150,8 @@ function t1pageconfig() {
             )}
             {pagesSectionsEdit.get("secao10edit") == true && (
               <header>
-                <nav>
-                  <div class="flex h-[20px] items-start">
+                <nav class="pt-[20px]">
+                  <div class="flex h-full items-center">
                     <div class="flex-1">
                       <p>Seção 10</p>
                     </div>
@@ -908,9 +1192,9 @@ function t1pageconfig() {
             )}
           </div>
 
-          <div class="w-px h-[500px] bg-gray-200 dark:bg-gray-700"></div>
+          <div class="w-px h-[90.7vh] bg-gray-200 dark:bg-gray-700"></div>
 
-          <div class="flex-1 items-center">
+          <div class="max-h-[90.7vh] overflow-y-auto flex-1 items-center">
             {pagesSections.get("secao1") == true && (
               <header>
                 <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
@@ -967,58 +1251,13 @@ function t1pageconfig() {
                       <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
                         {pagesProps.get("secao1_prop1")}
                       </span>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao1_prop1");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </a>
 
                     <div className="flex items-center lg:order-2">
                       <a className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">
                         {pagesProps.get("secao1_prop2") || ""}
                       </a>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao1_prop2");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
+
                       <button
                         data-collapse-toggle="mobile-menu-2"
                         type="button"
@@ -1045,216 +1284,47 @@ function t1pageconfig() {
                       id="mobile-menu-2"
                     >
                       <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                        <li>
-                          <a
-                            class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
-                            aria-current="page"
-                          >
-                            {pagesProps.get("secao1_prop3")}
-                          </a>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao1_prop3");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
-                        </li>
-                        <li>
-                          <a
-                            href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                          >
-                            {pagesProps.get("secao1_prop4")}
-                          </a>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao1_prop4");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
-                        </li>
-                        <li>
-                          <a
-                            href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                          >
-                            {pagesProps.get("secao1_prop5")}
-                          </a>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao1_prop5");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
-                        </li>
-                        <li>
-                          <a
-                            href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                          >
-                            {pagesProps.get("secao1_prop6")}
-                          </a>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao1_prop6");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
-                        </li>
-                        <li>
-                          <a
-                            href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                          >
-                            {pagesProps.get("secao1_prop7")}
-                          </a>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao1_prop7");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
-                        </li>
-                        <li>
-                          <a
-                            href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                          >
-                            {pagesProps.get("secao1_prop8")}
-                          </a>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao1_prop8");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
-                        </li>
+                        <a
+                          class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
+                          aria-current="page"
+                        >
+                          {pagesProps.get("secao1_prop3")}
+                        </a>
+
+                        <a
+                          href="#"
+                          class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                        >
+                          {pagesProps.get("secao1_prop4")}
+                        </a>
+
+                        <a
+                          href="#"
+                          class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                        >
+                          {pagesProps.get("secao1_prop5")}
+                        </a>
+
+                        <a
+                          href="#"
+                          class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                        >
+                          {pagesProps.get("secao1_prop6")}
+                        </a>
+
+                        <a
+                          href="#"
+                          class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                        >
+                          {pagesProps.get("secao1_prop7")}
+                        </a>
+
+                        <a
+                          href="#"
+                          class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                        >
+                          {pagesProps.get("secao1_prop8")}
+                        </a>
                       </ul>
                     </div>
                   </div>
@@ -4714,8 +4784,6 @@ function t1pageconfig() {
             )}
           </div>
         </div>
-
-        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 
         {exibirModalCust && (
           <div

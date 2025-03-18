@@ -1,0 +1,34 @@
+.secoes {
+  height: 80px;
+  width: 60px;
+  font-size: smaller;
+  font-weight: bold;
+  background-color: lightgray;
+  align-items: center;
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.secoes:hover {
+  height: 80px;
+  width: 60px;
+  font-size: smaller;
+  font-weight: bold;
+  color: white;
+  background-color: #1c64f2;
+  align-items: center;
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+.textos {
+  font-size: small;
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
