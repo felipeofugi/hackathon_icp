@@ -1967,6 +1967,370 @@ function t1pageconfig() {
                     </div>
                   </div>
                 </nav>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Subtítulo:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop1");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Título Principal:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop2");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto Principal:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop3");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto de Link 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop4");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto de Link 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop5");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Título 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop6");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop7");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Título 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop8");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop9");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Título 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop10");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop11");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Título 4:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop12");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto 4:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao5_prop13");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
               </header>
             )}
             {pagesSectionsEdit.get("secao6edit") == true && (
@@ -2009,6 +2373,142 @@ function t1pageconfig() {
                     </div>
                   </div>
                 </nav>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Citação:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao6_prop1");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Imagem:</div>
+
+                {(!pagesImg.has("secao6_prop4") ||
+                  pagesImg.get("secao6_prop4")?.url === "" ||
+                  pagesImg.get("secao6_prop4")?.url === null) && (
+                  <div class="w-[30px] h-[33px] mr-3 sm:h-9">
+                    <label
+                      for="dropzone-file10"
+                      class="flex flex-col items-center justify-center w-full h-full border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 "
+                    >
+                      <div class="flex flex-col items-center justify-center pt-1 pb-1">
+                        <svg
+                          class="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 20 16"
+                        >
+                          <path
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
+                          />
+                        </svg>
+                        <p class="mb-1 text-[8px] text-gray-500 dark:text-gray-400">
+                          <span class="font-semibold">Upload</span>
+                        </p>
+                      </div>
+                      <input
+                        id="dropzone-file10"
+                        type="file"
+                        class="hidden"
+                        onChange={(e) => {
+                          selectImg(e, "secao6_prop4");
+                        }}
+                      />
+                    </label>
+                  </div>
+                )}
+
+                {pagesImg.get("secao6_prop4")?.url != "" &&
+                  pagesImg.get("secao6_prop4")?.url != null && (
+                    <img
+                      src={pagesImg.get("secao6_prop4")?.url}
+                      className="h-6 mr-3 sm:h-9"
+                    />
+                  )}
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Nome da pessoa:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao6_prop2");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Cargo da pessoa:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao6_prop3");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
               </header>
             )}
             {pagesSectionsEdit.get("secao7edit") == true && (
@@ -2051,6 +2551,902 @@ function t1pageconfig() {
                     </div>
                   </div>
                 </nav>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Título Principal:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop1");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto Principal:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop2");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Título do Perfil 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop3");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto do Perfil 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop4");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Valor do Perfil 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop5");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Período do Perfil 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop6");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 1 do Perfil 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop7");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 2 do Perfil 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop8");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 3 do Perfil 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop9");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 4 do Perfil 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop10");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 5 do Perfil 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop11");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Botão do Perfil 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop12");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Título do Perfil 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop13");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto do Perfil 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop14");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Valor do Perfil 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop15");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Período do Perfil 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop16");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 1 do Perfil 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop17");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 2 do Perfil 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop18");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 3 do Perfil 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop19");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 4 do Perfil 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop20");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 5 do Perfil 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop21");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Botão do Perfil 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop22");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Título do Perfil 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop23");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto do Perfil 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop24");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Valor do Perfil 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop25");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Período do Perfil 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop26");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 1 do Perfil 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop27");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 2 do Perfil 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop28");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 3 do Perfil 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop29");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 4 do Perfil 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop30");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Característica 5 do Perfil 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop31");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Botão do Perfil 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao7_prop32");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
               </header>
             )}
             {pagesSectionsEdit.get("secao8edit") == true && (
@@ -2093,6 +3489,201 @@ function t1pageconfig() {
                     </div>
                   </div>
                 </nav>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Título:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao8_prop1");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Pergunta 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao8_prop2");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Resposta 1:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao8_prop3");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Pergunta 2:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao8_prop4");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Pergunta 3:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao8_prop5");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Pergunta 4:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao8_prop6");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Pergunta 5:</div>
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao8_prop8");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
               </header>
             )}
             {pagesSectionsEdit.get("secao9edit") == true && (
@@ -2135,6 +3726,90 @@ function t1pageconfig() {
                     </div>
                   </div>
                 </nav>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Título:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao9_prop1");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Texto:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao9_prop2");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
+
+                <hr class="w-full h-px bg-gray-200 dark:bg-gray-700"></hr>
+
+                <div class="textos">Botão:</div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    exibirModalCustomizacao("secao9_prop3");
+                  }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+                    <path d="M13.5 6.5l4 4" />
+                  </svg>
+                </button>
               </header>
             )}
             {pagesSectionsEdit.get("secao10edit") == true && (
@@ -3020,83 +4695,15 @@ function t1pageconfig() {
                     <p class="text-lg font-medium text-purple-600 dark:text-purple-500">
                       {" "}
                       {pagesProps.get("secao5_prop1")}
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao5_prop1");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </p>
                     <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
                       {" "}
                       {pagesProps.get("secao5_prop2")}{" "}
                     </h2>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        exibirModalCustomizacao("secao5_prop2");
-                      }}
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                        <path d="M13.5 6.5l4 4" />
-                      </svg>
-                    </button>
+
                     <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
                       {" "}
                       {pagesProps.get("secao5_prop3")}
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao5_prop3");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </p>
                     <div class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
                       <div>
@@ -3118,29 +4725,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                         </a>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao5_prop4");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
                       </div>
                       <div>
                         <a
@@ -3161,29 +4745,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                         </a>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao5_prop5");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
                       </div>
                     </div>
                   </div>
@@ -3205,56 +4766,11 @@ function t1pageconfig() {
                         {" "}
                         {pagesProps.get("secao5_prop6")}{" "}
                       </h3>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao5_prop6");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
+
                       <p class="font-light text-gray-500 dark:text-gray-400">
                         {" "}
                         {pagesProps.get("secao5_prop7")}{" "}
                       </p>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao5_prop7");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </div>
                     <div>
                       <svg
@@ -3269,56 +4785,11 @@ function t1pageconfig() {
                         {" "}
                         {pagesProps.get("secao5_prop8")}{" "}
                       </h3>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao5_prop8");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
+
                       <p class="font-light text-gray-500 dark:text-gray-400">
                         {" "}
                         {pagesProps.get("secao5_prop9")}{" "}
                       </p>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao5_prop9");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </div>
                     <div>
                       <svg
@@ -3337,57 +4808,11 @@ function t1pageconfig() {
                         {" "}
                         {pagesProps.get("secao5_prop10")}{" "}
                       </h3>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao5_prop10");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
+
                       <p class="font-light text-gray-500 dark:text-gray-400">
                         {" "}
                         {pagesProps.get("secao5_prop11")}{" "}
                       </p>
-
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao5_prop11");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </div>
                     <div>
                       <svg
@@ -3402,56 +4827,11 @@ function t1pageconfig() {
                         {" "}
                         {pagesProps.get("secao5_prop12")}{" "}
                       </h3>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao5_prop12");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
+
                       <p class="font-light text-gray-500 dark:text-gray-400">
                         {" "}
                         {pagesProps.get("secao5_prop13")}{" "}
                       </p>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao5_prop13");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </div>
                   </div>
                 </div>
@@ -3479,29 +4859,7 @@ function t1pageconfig() {
                         {pagesProps.get("secao6_prop1")}{" "}
                       </p>
                     </blockquote>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        exibirModalCustomizacao("secao6_prop1");
-                      }}
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                        <path d="M13.5 6.5l4 4" />
-                      </svg>
-                    </button>
+
                     <figcaption class="flex items-center justify-center mt-6 space-x-3">
                       {(!pagesImg.has("secao6_prop4") ||
                         pagesImg.get("secao6_prop4")?.url === "" ||
@@ -3556,56 +4914,11 @@ function t1pageconfig() {
                           {" "}
                           {pagesProps.get("secao6_prop2")}{" "}
                         </div>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao6_prop2");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
+
                         <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
                           {" "}
                           {pagesProps.get("secao6_prop3")}{" "}
                         </div>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao6_prop3");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
                       </div>
                     </figcaption>
                   </figure>
@@ -3621,168 +4934,33 @@ function t1pageconfig() {
                       {" "}
                       {pagesProps.get("secao7_prop1")}{" "}
                     </h2>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        exibirModalCustomizacao("secao7_prop1");
-                      }}
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                        <path d="M13.5 6.5l4 4" />
-                      </svg>
-                    </button>
+
                     <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
                       {" "}
                       {pagesProps.get("secao7_prop2")}{" "}
                     </p>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        exibirModalCustomizacao("secao7_prop2");
-                      }}
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                        <path d="M13.5 6.5l4 4" />
-                      </svg>
-                    </button>
                   </div>
                   <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
                     <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                       <h3 class="mb-4 text-2xl font-semibold">
                         {" "}
                         {pagesProps.get("secao7_prop3")}
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao7_prop3");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
                       </h3>
                       <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                         {" "}
                         {pagesProps.get("secao7_prop4")}{" "}
                       </p>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao7_prop4");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
+
                       <div class="flex items-baseline justify-center my-8">
                         <span class="mr-2 text-5xl font-extrabold">
                           {" "}
                           {pagesProps.get("secao7_prop5")}{" "}
                         </span>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao7_prop5");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
+
                         <span class="text-gray-500 dark:text-gray-400">
                           {" "}
                           {pagesProps.get("secao7_prop6")}{" "}
                         </span>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao7_prop6");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
                       </div>
                       <ul role="list" class="mb-8 space-y-4 text-left">
                         <li class="flex items-center space-x-3">
@@ -3799,33 +4977,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop7")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop7");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                         <li class="flex items-center space-x-3">
                           <svg
@@ -3841,33 +4992,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop8")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop8");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                         <li class="flex items-center space-x-3">
                           <svg
@@ -3883,33 +5007,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop9")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop9");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                         <li class="flex items-center space-x-3">
                           <svg
@@ -3925,33 +5022,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop10")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop10");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                         <li class="flex items-center space-x-3">
                           <svg
@@ -3967,33 +5037,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop11")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop11");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                       </ul>
                       <a
@@ -4002,114 +5045,24 @@ function t1pageconfig() {
                       >
                         {pagesProps.get("secao7_prop12")}{" "}
                       </a>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao7_prop12");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </div>
 
                     <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                       <h3 class="mb-4 text-2xl font-semibold">
                         {" "}
                         {pagesProps.get("secao7_prop13")}
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao7_prop13");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
                       </h3>
                       <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                         {" "}
                         {pagesProps.get("secao7_prop14")}{" "}
                       </p>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao7_prop14");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
+
                       <div class="flex items-baseline justify-center my-8">
                         <span class="mr-2 text-5xl font-extrabold">
                           {" "}
                           {pagesProps.get("secao7_prop15")}{" "}
                         </span>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao7_prop15");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
+
                         <span
                           class="text-gray-500 dark:text-gray-400"
                           dark:text-gray-400
@@ -4117,29 +5070,6 @@ function t1pageconfig() {
                           {" "}
                           {pagesProps.get("secao7_prop16")}{" "}
                         </span>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao7_prop16");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
                       </div>
 
                       <ul role="list" class="mb-8 space-y-4 text-left">
@@ -4157,33 +5087,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop17")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop17");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                         <li class="flex items-center space-x-3">
                           <svg
@@ -4199,33 +5102,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop18")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop18");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                         <li class="flex items-center space-x-3">
                           <svg
@@ -4241,33 +5117,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop19")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop19");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                         <li class="flex items-center space-x-3">
                           <svg
@@ -4283,33 +5132,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop20")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop20");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
 
                         <li class="flex items-center space-x-3">
@@ -4326,33 +5148,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop21")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop21");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                       </ul>
                       <a
@@ -4362,142 +5157,28 @@ function t1pageconfig() {
                         {" "}
                         {pagesProps.get("secao7_prop22")}{" "}
                       </a>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao7_prop22");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </div>
 
                     <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                       <h3 class="mb-4 text-2xl font-semibold">
                         {" "}
                         {pagesProps.get("secao7_prop23")}
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao7_prop23");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
                       </h3>
                       <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                         {" "}
                         {pagesProps.get("secao7_prop24")}{" "}
                       </p>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao7_prop24");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
 
                       <div class="flex items-baseline justify-center my-8">
                         <span class="mr-2 text-5xl font-extrabold">
                           {" "}
                           {pagesProps.get("secao7_prop25")}{" "}
                         </span>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao7_prop25");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
+
                         <span class="text-gray-500 dark:text-gray-400">
                           {" "}
                           {pagesProps.get("secao7_prop26")}{" "}
                         </span>
-                        <button
-                          type="button"
-                          onClick={() => {
-                            exibirModalCustomizacao("secao7_prop26");
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                            <path d="M13.5 6.5l4 4" />
-                          </svg>
-                        </button>
                       </div>
                       <ul role="list" class="mb-8 space-y-4 text-left">
                         <li class="flex items-center space-x-3">
@@ -4514,33 +5195,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop27")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop27");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                         <li class="flex items-center space-x-3">
                           <svg
@@ -4556,33 +5210,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop28")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop28");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                         <li class="flex items-center space-x-3">
                           <svg
@@ -4598,33 +5225,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop29")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop29");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                         <li class="flex items-center space-x-3">
                           <svg
@@ -4640,33 +5240,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop30")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop30");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                         <li class="flex items-center space-x-3">
                           <svg
@@ -4682,33 +5255,6 @@ function t1pageconfig() {
                             ></path>
                           </svg>
                           <span> {pagesProps.get("secao7_prop31")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao7_prop31");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </li>
                       </ul>
                       <a
@@ -4718,29 +5264,6 @@ function t1pageconfig() {
                         {" "}
                         {pagesProps.get("secao7_prop32")}{" "}
                       </a>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao7_prop32");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </div>
                   </div>
                 </div>
@@ -4753,29 +5276,6 @@ function t1pageconfig() {
                   <h2 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
                     {" "}
                     {pagesProps.get("secao8_prop1")}
-                    <button
-                      type="button"
-                      onClick={() => {
-                        exibirModalCustomizacao("secao8_prop1");
-                      }}
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                        <path d="M13.5 6.5l4 4" />
-                      </svg>
-                    </button>
                   </h2>
                   <div class="max-w-screen-md mx-auto">
                     <div
@@ -4793,33 +5293,7 @@ function t1pageconfig() {
                           aria-controls="accordion-flush-body-1"
                         >
                           <span> {pagesProps.get("secao8_prop2")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao8_prop2");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
+
                           <svg
                             data-accordion-icon=""
                             class="w-6 h-6 rotate-180 shrink-0"
@@ -4845,34 +5319,6 @@ function t1pageconfig() {
                             {" "}
                             {pagesProps.get("secao8_prop3")}{" "}
                           </p>
-
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao8_prop3");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </div>
                       </div>
                       <h3 id="accordion-flush-heading-2">
@@ -4884,33 +5330,7 @@ function t1pageconfig() {
                           aria-controls="accordion-flush-body-2"
                         >
                           <span> {pagesProps.get("secao8_prop4")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao8_prop4");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
+
                           <svg
                             data-accordion-icon=""
                             class="w-6 h-6 shrink-0"
@@ -4936,33 +5356,6 @@ function t1pageconfig() {
                             {" "}
                             {pagesProps.get("secao8_prop5")}{" "}
                           </p>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao8_prop5");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
                         </div>
                       </div>
                       <h3 id="accordion-flush-heading-3">
@@ -4974,33 +5367,7 @@ function t1pageconfig() {
                           aria-controls="accordion-flush-body-3"
                         >
                           <span>{pagesProps.get("secao8_prop6")}</span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao8_prop6");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
+
                           <svg
                             data-accordion-icon=""
                             class="w-6 h-6 shrink-0"
@@ -5064,33 +5431,7 @@ function t1pageconfig() {
                           aria-controls="accordion-flush-body-4"
                         >
                           <span> {pagesProps.get("secao8_prop8")} </span>
-                          <button
-                            type="button"
-                            onClick={() => {
-                              exibirModalCustomizacao("secao8_prop8");
-                            }}
-                          >
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                            >
-                              <path
-                                stroke="none"
-                                d="M0 0h24v24H0z"
-                                fill="none"
-                              />
-                              <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                              <path d="M13.5 6.5l4 4" />
-                            </svg>
-                          </button>
+
                           <svg
                             data-accordion-icon=""
                             class="w-6 h-6 shrink-0"
@@ -5158,57 +5499,11 @@ function t1pageconfig() {
                     <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">
                       {" "}
                       {pagesProps.get("secao9_prop1")}
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao9_prop1");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </h2>
 
                     <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">
                       {" "}
                       {pagesProps.get("secao9_prop2")}
-                      <button
-                        type="button"
-                        onClick={() => {
-                          exibirModalCustomizacao("secao9_prop2");
-                        }}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                          <path d="M13.5 6.5l4 4" />
-                        </svg>
-                      </button>
                     </p>
 
                     <a
@@ -5218,29 +5513,6 @@ function t1pageconfig() {
                       {" "}
                       {pagesProps.get("secao9_prop3")}{" "}
                     </a>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        exibirModalCustomizacao("secao9_prop3");
-                      }}
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="icon icon-tabler icons-tabler-outline icon-tabler-pencil"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
-                        <path d="M13.5 6.5l4 4" />
-                      </svg>
-                    </button>
                   </div>
                 </div>
               </section>
